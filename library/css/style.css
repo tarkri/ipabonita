@@ -131,9 +131,22 @@ body {
     overflow: hidden;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 900px) {
     .location-block {
         width: 100%;
+    }
+    .location-block.set-2 {
+        background: #2c925a;
+    }
+    .location-block.set-3 {
+        background: #24794b;
+    }
+
+    .location-block.set-2 .location-address h4 span {
+        color: #49cccf !important;
+    }
+    .location-block.set-3 .location-address h4 span {
+        color: #52e5e8 !important;
     }
 }
 
@@ -153,6 +166,7 @@ body {
 
 .location-block > h1.white {
     color: #ffdaba;
+    text-shadow: 0 4px 2px rgba(0, 0, 0, .2);
 }
 
 .location-content {
@@ -237,18 +251,6 @@ body {
 
 .location-address h4 span {
     color: #349193;
-}
-
-.location-address:after {
-    content:" ";
-    width:40px;
-    height: 10px;
-    display: block;
-    background: #bd9574;
-    bottom:-20px;
-    left:10px;
-    position: absolute;
-    border-top:2px solid #9e7d61;
 }
 
 .registry {
