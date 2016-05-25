@@ -229,6 +229,24 @@ body {
     width: 100%;
 }
 
+.registry-content a {
+    background: rgba(0, 0, 0, .1);
+    display: block;
+    width: intrinsic;
+    margin:0 auto;
+    padding: 20px;
+    display: block;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.registry-content a:hover {
+    background:rgba(0, 0, 0, .4);
+}
+
 .registry-content img {
     max-width: 200px;
 }
