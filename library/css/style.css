@@ -90,6 +90,7 @@ body {
     .image-banner img {
         width:100% !important;
         visibility: visible;
+        margin-bottom:-5px;
     }
 }
 
