@@ -83,6 +83,14 @@ body {
 
 .image-banner img {
     width:100% !important;
+    visibility: hidden;
+}
+
+@media screen and (max-width: 640px) {
+    .image-banner img {
+        width:100% !important;
+        visibility: visible;
+    }
 }
 
 .image-banner img.fallback {
@@ -224,10 +232,6 @@ body {
     max-width: intrinsic !important;
 }
 
-.parallax-window {
-    min-height: 400px;
-    background: transparent;
-}
 
 /*COMMON*/
 .text-center {
