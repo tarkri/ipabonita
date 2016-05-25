@@ -230,7 +230,7 @@ body {
 }
 
 .registry-content img {
-    max-width: intrinsic !important;
+    max-width: 200px;
 }
 
 
