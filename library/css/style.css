@@ -1,0 +1,228 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic,900,900italic);
+* {
+  margin:0;
+  padding:0;
+  outline:0;
+  border:0;
+}
+
+body {
+  background:#41c486;
+}
+#banner {
+  position:relative;
+  display:block;
+  height:500px;
+  overflow: hidden;
+}
+#banner .layer {
+  display:block;
+  width: 100%;
+  height:68px;
+}
+.foreground {
+  position: absolute;
+  height: 75%;
+  top:0;
+  width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.foreground img {
+  width:100%;
+  max-width:592px;
+}
+
+.layer_1 {
+  background:#d7ffe7;
+}
+.layer_2 {
+  background:#b3ffd2;
+}
+.layer_3 {
+  background:#8affbc;
+}
+.layer_4 {
+  background:#5cffa6;
+}
+.layer_5 {
+  background:#56f4a1;
+}
+.layer_6 {
+  background:#4bdd94;
+}
+.layer_7 {
+  background:#41c486;
+}
+
+.headline {
+    padding: 40px 20px;
+}
+.headline h1 {
+    font-family: 'Playfair Display', georgia, serif;
+    font-size: 40px;
+    color:#fff;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.headline h1 small {
+    font-weight: 300;
+}
+
+.image-banner {
+    -webkit-background-size: 100% !important;
+    background-size: 100% !important;
+    background-attachment: fixed !important;
+}
+
+.image-banner img {
+    width:100% !important;
+}
+
+.locations .location-block {
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.location-block {
+    width: 33%;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+@media screen and (max-width:640px) {
+    .location-block {
+        width: 100%;
+    }
+}
+
+.location-block > h1 {
+    color: #eab88f;
+    font-family: 'Playfair Display', serif;
+    font-size: 72px;
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+}
+
+.location-content {
+    width:80%;
+    display: block;
+    background:#f2f2f2;
+    margin: 20px auto 10px;
+    padding: 20px;
+    color: #2a6e6e !important;
+}
+
+.location-content h1 {
+    font-size: 24px;
+    font-family: 'Playfair Display';
+    font-weight: 300;
+    font-style: italic;
+}
+.location-content p {
+    font-family: 'Playfair Display';
+    font-weight: 300;
+    font-style: italic;
+}
+
+.location-content h2 {
+    font-size: 48px;
+    color: #349393;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-style: italic;
+    width: 100%;
+    text-align: center;
+    display: block;
+    padding-top:20px;
+}
+.location-content h2 span {
+    color: #bd9574;
+    font-style: 43px;
+    white-space: nowrap;
+}
+
+.location-address h4 {
+    font-size: 30px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Playfair Display';
+    line-height: 1;
+}
+
+.location-address h4 span {
+    color: #349193;
+}
+
+.registry {
+    position: relative;
+    background:url(../img/registry.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    min-height: 400px;
+}
+
+.registry img {
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+}
+
+.registry-content {
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox;  /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+    display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.registry-content p {
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    font-size: 24px;
+    max-width:640px;
+    padding: 20px;
+    display: block;
+    font-style: italic;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.registry-content img {
+    max-width: intrinsic !important;
+}
+
+/*COMMON*/
+.text-center {
+    text-align: center !important;
+}
+.clearfix {
+    clear: both !important;
+}
