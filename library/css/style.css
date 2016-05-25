@@ -85,6 +85,11 @@ body {
     width:100% !important;
 }
 
+.image-banner img.fallback {
+    position: absolute;
+    top:0;
+}
+
 .locations .location-block {
     -webkit-transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
