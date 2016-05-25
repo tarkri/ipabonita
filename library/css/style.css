@@ -224,6 +224,11 @@ body {
     max-width: intrinsic !important;
 }
 
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
 /*COMMON*/
 .text-center {
     text-align: center !important;
