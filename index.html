@@ -50,7 +50,7 @@
     </h1>
 </div>
 <div class="locations">
-    <div class="location-block">
+    <div class="location-block set-1">
         <h1>nyc</h1>
 
         <div class="location-content">
@@ -63,7 +63,7 @@
         </div>
         <div class="location-address"><h4>rockaway beach <br> <span>queens</span></h4></div>
     </div>
-    <div class="location-block">
+    <div class="location-block set-2">
         <h1>dal</h1>
 
         <div class="location-content">
@@ -76,7 +76,7 @@
         </div>
         <div class="location-address"><h4>dallas <br> <span>texas</span></h4></div>
     </div>
-    <div class="location-block">
+    <div class="location-block set-3">
         <h1>mrf</h1>
 
         <div class="location-content">
@@ -146,7 +146,6 @@
             }, 600);
 
         }, 100);
-
         setTimeout(function () {
             $('.layer').animate({
                 height: '72px'
@@ -162,7 +161,6 @@
                 height: '68px'
             }, 2000);
         }, 3000);
-
         setInterval(function () {
             setTimeout(function () {
                 $('.layer').animate({
@@ -180,6 +178,54 @@
                 }, 2000);
             }, 3000);
         }, 6000);
+        setInterval(function(){
+            $('.location-block.set-1 .location-content').animate({
+                'margin-top': '10px',
+                'margin-bottom' : '20px'
+            }, 1000);
+            setTimeout(function(){
+                $('.location-block.set-1 .location-content').animate({
+                    'margin-top': '20px',
+                    'margin-bottom' : '10px'
+                }, 1000);
+            }, 3000);
+            $('.location-block.set-1 > h1').addClass('white');
+            setTimeout(function(){
+                $('.location-block.set-1 > h1').removeClass('white');
+            }, 3000);
+        }, 5000);
+        setInterval(function(){
+            $('.location-block.set-2 .location-content').animate({
+                'margin-top': '10px',
+                'margin-bottom' : '20px'
+            }, 1000);
+            setTimeout(function(){
+                $('.location-block.set-2 .location-content').animate({
+                    'margin-top': '20px',
+                    'margin-bottom' : '10px'
+                }, 1000);
+            }, 3000);
+            $('.location-block.set-2 > h1').addClass('white');
+            setTimeout(function(){
+                $('.location-block.set-2 > h1').removeClass('white');
+            }, 3000);
+        }, 3000);
+        setInterval(function(){
+            $('.location-block.set-3 .location-content').animate({
+                'margin-top': '10px',
+                'margin-bottom' : '20px'
+            }, 1000);
+            setTimeout(function(){
+                $('.location-block.set-3 .location-content').animate({
+                    'margin-top': '20px',
+                    'margin-bottom' : '10px'
+                }, 1000);
+            }, 3000);
+            $('.location-block.set-3 > h1').addClass('white');
+            setTimeout(function(){
+                $('.location-block.set-3 > h1').removeClass('white');
+            }, 3000);
+        }, 7000);
     });
 </script>
 
