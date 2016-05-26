@@ -8,7 +8,7 @@
 }
 
 body {
-    background: #41c486;
+    background: #5ca579;
 }
 
 #banner {
@@ -49,27 +49,27 @@ body {
 }
 
 .layer_2 {
-    background: #b3ffd2;
+    background: #deffe9;
 }
 
 .layer_3 {
-    background: #8affbc;
+    background: #c2ffd8;
 }
 
 .layer_4 {
-    background: #5cffa6;
+    background: #a6ffc8;
 }
 
 .layer_5 {
-    background: #56f4a1;
+    background: #87f3b2
 }
 
 .layer_6 {
-    background: #4bdd94;
+    background: #79d99f;
 }
 
 .layer_7 {
-    background: #41c486;
+    background: #68ba88;
 }
 
 .headline {
@@ -175,10 +175,11 @@ body {
     background: #f2f2f2;
     margin: 20px auto 10px;
     padding: 20px;
-    color: #2a6e6e !important;
+    color: #5ca579 !important;
     position: relative;
     border-bottom: 5px solid #c1c1c1;
     border-top:5px solid #ffffff;
+    text-align: center;
 }
 
 .location-content:after {
@@ -209,6 +210,7 @@ body {
     font-family: 'Playfair Display';
     font-weight: 300;
     font-style: italic;
+    padding-top:20px;
 }
 
 .location-content p {
@@ -219,7 +221,7 @@ body {
 
 .location-content h2 {
     font-size: 48px;
-    color: #349393;
+    color: #5ca579;
     font-family: 'Playfair Display', serif;
     font-weight: 900;
     font-style: italic;
@@ -250,7 +252,39 @@ body {
 }
 
 .location-address h4 span {
-    color: #349193;
+    color: #3b694d;
+}
+
+.location-rsvp {
+    width: 100%;
+    padding: 15px;
+    background: #bf9574;
+    text-align: center !important;
+    display: block;
+}
+
+.location-rsvp a {
+    background: #5ca579;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    color: #fff;
+    padding: 20px;
+    display: inline-block;
+    font-weight: 700;
+    text-decoration: none;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.location-rsvp a.blink {
+    background: #65b585;
+}
+
+.location-rsvp a:hover {
+    background: #345e45;
 }
 
 .registry {
