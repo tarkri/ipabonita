@@ -136,17 +136,17 @@ body {
         width: 100%;
     }
     .location-block.set-2 {
-        background: #2c925a;
+        background: #4a8561;
     }
     .location-block.set-3 {
-        background: #24794b;
+        background: #3a684c;
     }
 
     .location-block.set-2 .location-address h4 span {
-        color: #49cccf !important;
+        color: #24402f !important;
     }
     .location-block.set-3 .location-address h4 span {
-        color: #52e5e8 !important;
+        color: #192e22 !important;
     }
 }
 
