@@ -261,6 +261,9 @@ body {
     background: #bf9574;
     text-align: center !important;
     display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .location-rsvp a {
@@ -353,6 +356,44 @@ body {
 
 .registry-content img {
     max-width: 200px;
+}
+
+footer {
+    background: #bf9574;
+    padding: 40px 20px;
+    border-top:4px solid #508f69;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox; /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+    display: flex; /* NEW, Spec - Firefox, Chrome, Opera */
+    align-items: center;
+    justify-content: center;
+}
+
+footer p, footer a {
+    color: #715845;
+    font-size: 12;
+    font-family: 'Playfair Display', georgia, serif;
+    font-style: italic;
+}
+
+footer a {
+    color: #ffe1cc;
+    text-decoration: none;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+footer a:hover {
+    color: #fff;
+    text-decoration: underline;
 }
 
 /*COMMON*/
