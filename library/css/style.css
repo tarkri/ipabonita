@@ -16,6 +16,7 @@ body {
     display: block;
     height: 500px;
     overflow: hidden;
+    z-index: 1000;
 }
 
 #banner .layer {
@@ -74,6 +75,8 @@ body {
 
 .headline {
     padding: 40px 20px;
+    background:  #5ca579;
+    z-index: 1000;
 }
 
 .headline h1 {
