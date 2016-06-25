@@ -334,7 +334,7 @@ body {
 }
 
 .registry-content a {
-    background: rgba(0, 0, 0, .1);
+    background: rgba(0, 0, 0, .4);
     display: block;
     width: intrinsic;
     margin: 0 auto;
@@ -348,7 +348,7 @@ body {
 }
 
 .registry-content a:hover {
-    background: rgba(0, 0, 0, .4);
+    background: rgba(0, 0, 0, .6);
 }
 
 .registry-content img {
